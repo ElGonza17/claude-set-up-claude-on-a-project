@@ -19,7 +19,7 @@ node --test tests/users.test.js               # run a single test file
 node --test --test-name-pattern="returns 404" # run tests matching a name
 ```
 
-CI (`.github/workflows/ci.yml`) runs `npm run lint` then `npm test` on Node 22 for every
+CI runs `npm run lint` then `npm test` on Node 22 for every
 push and pull request. Both must pass.
 
 ## Architecture
